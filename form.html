@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <fieldset class="form_fieldset">
+            <legend class="title"> <b>Agende seu passeio</b></legend>
+            <br>
+            <label>E-mail</label>
+            <br>
+            <input type="e-mail" name="e-mail" placeholder="meuemail@gmail.com">
+            <br> <br>
+            <label>Data do passeio</label>
+            <br>
+            <input type="date" min="2025-02-01" max="2025-12-31">
+            <br> <br>
+            <label for="Quantidade">Quantidade de pessoas</label>
+            <br>
+            <input type="number" id="Quantidade" min="1" max="1000">
+            <br> <br>
+            <label>Selecione o passeio</label>
+            <br>
+            <label><input type="radio" name="Passeio">Balão</label>
+            <label><input type="radio" name="Passeio">Trem</label>
+            <label><input type="radio" name="Passeio">Montanha</label>
+            <label><input type="radio" name="Passeio">Mergulho</label>
+            <br> <br>
+            <input class="btn" type="submit" value="Enviar">
+        </fieldset>
+
+    </form>
+</body>
+</html>
